@@ -1,0 +1,113 @@
+@media screen and (max-width: 1200px){
+    .main-menu .nav-link{
+        text-align: center !important;
+        line-height: 1em;
+    }
+    .nav-link:after{
+        display: none;
+    }
+    #navbarNavDropdown {
+        margin-right: 0;
+    }
+    .news-h2{
+        font-size: 5vw;
+    }
+    .news-h2:before, .news-h2:after{
+        width: 30%;
+    }
+    .carousel-caption {
+        padding-bottom: 30%;
+    }
+    .bg-sticker-green, .bg-sticker-orange {
+        height: 403px;
+    }
+}
+@media screen and (max-width: 992px){
+
+    .carousel-caption {
+        padding-bottom: 40%;
+    }
+    .production-img{
+        margin-bottom: 30px;
+    }
+    .aside-colspy{
+        display: none;
+    }
+    .bg-sticker-green, .bg-sticker-orange {
+        height: 365px;
+    }
+    .footer-links img{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px){
+    #carouselSliderUTN{
+        display: none;
+    }
+    .section-parralax{
+        display: none;
+    }
+    .section-images{
+        display: none;
+    }
+    .news .news-img-section{
+    float: left;
+    width: 45%;
+    height: 155px;
+    border-bottom: none;
+    margin: 13px;
+    }
+    .news span {
+        display: inline-block;
+        padding: 25px 0 15px 0px;
+        font-size: 17px;
+        color: rgba(242, 121, 0, 1);
+    }
+    .social-info{
+        margin-top: 20px;
+    }
+    hr{        
+        margin: 30px 0;
+    }
+    .bg-sticker-green, .bg-sticker-orange {
+        height: 455px;
+        padding-top: 140px;
+    }
+}
+@media screen and (max-width: 576px){
+    .navbar-brand img {
+        padding: 0;
+    }
+    button.navbar-toggler {
+        margin-right: 0px;
+    }
+    .navbar-brand {
+        padding-right: 0;
+    }
+    .p-head-breadcrumb .full-width{
+        min-width: 100%;
+    }
+    /* .bg-sticker-green, .bg-sticker-orange {
+        width: 80%;
+    height: 425px;
+    } */
+    
+}
+@media screen and (max-width: 394px){
+    /* .navbar-brand{
+        padding-right: 60px;
+    } */
+    .lang li{
+        display: block;
+    }
+    .lang-active{
+        border-right: 1px solid rgba(242, 121, 0, 1);
+        border-left: 1px solid rgba(242, 121, 0, 1);
+        border-bottom: 0px;
+    }
+    .bg-sticker-green, .bg-sticker-orange {
+        padding-top: 90px;
+        padding-right: 36px;
+        height: 400px;
+    }
+}
